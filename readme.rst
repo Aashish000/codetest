@@ -3,6 +3,13 @@ What Challanges did I faced?
 ###################
 1. Had some difficulty in posting data using api request CROS issue 
 2. Form data for year input datafield
+###################
+Commom Issue 
+
+Base URL Configuration
+- Ensure that the 'VUE_APP_API_BASE_URL' in your 'main.js' file matches the URL where the backend server is running.
+- For example, if running locally, it should be something like `http://localhost/codingtest`.
+
 
 
 *******************

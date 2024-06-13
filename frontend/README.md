@@ -45,3 +45,13 @@ Download sql file from the project folder
 And run your server 
 
 ```
+#
+```
+#Commom issue 
+
+**Base URL Configuration**
+- Ensure that the `VUE_APP_API_BASE_URL` in your main.js file matches the URL where the backend server is running.
+- For example, if running locally, it should be something like `localhost/codetest/`.
+
+
+```
