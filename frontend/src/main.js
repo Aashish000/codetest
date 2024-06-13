@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import axios from 'axios'
 
 //define baseurl 
-axios.defaults.baseURL = "http://localhost/codingtest"
+axios.defaults.baseURL = "http://localhost/codetest"
+
 
 createApp(App).use(router).mount('#app')

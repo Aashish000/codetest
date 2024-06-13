@@ -4,6 +4,12 @@ Some of the challanges faced during project are
 1. Had some difficulty in posting data using api request CROS issue 
 2. Form data for year input 
 ```
+#Project Structure
+    codingtest master file with CI
+        - frontend //here is vue js 
+    
+```
+```
 # instruction
 ```
 Step 1:
@@ -32,27 +38,6 @@ Vue Js
 yarn install
 npm install
 ```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-npm serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-npm 
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 
 # backend 
 ```

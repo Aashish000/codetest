@@ -84,6 +84,9 @@ created(){
 methods:{
   async getBooks(){
     try{
+      var baseUrl = 'localhost/'
+      // var localhost/
+      console.log(baseUrl);
       const response = await axios.get("books");
       
       this.books = response.data;
