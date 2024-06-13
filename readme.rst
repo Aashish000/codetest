@@ -1,71 +1,62 @@
-###################
-What is CodeIgniter
-###################
+#challanges 
+```
+Some of the challanges faced during project are 
+1. Had some difficulty in posting data using api request CROS issue 
+2. Form data for year input 
+```
+# instruction
+```
+Step 1:
+Download or clone the project 
+Step 2: 
+create db named db_books
+Step 3:
+import the sql file in your phpmyadmin
+Step 4:
+Go to your powershell and go to path /codingtest/frontend
+Step 5: 
+run the command 
+'npm run serve'
+Step 6: 
+go to browser and enter http://localhost:8080/
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
 
-*******************
-Release Information
-*******************
+```
+# frontend
+```
+Vue Js 
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+```
+## Project setup
+```
+yarn install
+npm install
+```
 
-**************************
-Changelog and New Features
-**************************
+### Compiles and hot-reloads for development
+```
+yarn serve
+npm serve
+```
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+### Compiles and minifies for production
+```
+yarn build
+npm 
+```
 
-*******************
-Server Requirements
-*******************
+### Lints and fixes files
+```
+yarn lint
+```
 
-PHP version 5.6 or newer is recommended.
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
 
-************
-Installation
-************
+# backend 
+```
+Download sql file from the project folder 
+And run your server 
 
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+```
