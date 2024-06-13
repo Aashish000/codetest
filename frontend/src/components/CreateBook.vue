@@ -80,7 +80,7 @@ name: "AddBook",
   methods: {
     async getBooks(){
     try{
-    const response = await axios.get(`http://localhost/codingtest/books/`)
+    const response = await axios.get(`books`)
     this.books = response.data; 
     
     }
@@ -89,7 +89,7 @@ name: "AddBook",
     }
   },
   async submitForm(){
-    await axios.postForm('http://localhost/codingtest/books/add', this.formInfo,
+    await axios.postForm('books/add', this.formInfo,
   {headers: {'content-type': 'application/x-www-form-urlencoded'}}
 )
 

@@ -135,7 +135,7 @@ methods:{
 
    const id = this.$route.params.id;
     
-      await axios.get(`http://localhost/codingtest/books/edit/${id}`)
+      await axios.get(`books/edit/${id}`)
                         .then(response => {
                             this.formInfo = response.data;
                             this.error = '';
@@ -148,7 +148,7 @@ methods:{
   },
   async submitForm(){
     const id = this.$route.params.id;
-    axios.post(`http://localhost/codingtest/books/update/${id}`, this.formInfo,
+    axios.post(`books/update/${id}`, this.formInfo,
     {headers: {'content-type': 'application/x-www-form-urlencoded'}}
     )
     .then(response=>{
